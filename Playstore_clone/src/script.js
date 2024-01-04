@@ -3,14 +3,7 @@ const loginPopup = document.querySelector(".login-popup");
 var close = document.querySelector(".close");
 
 
-window.addEventListener("load",function(){
 
- showPopup();
- // setTimeout(function(){
- //   loginPopup.classList.add("show");
- // },5000)
-
-})
 
 function showPopup(){
       const timeLimit = 3 // seconds;
@@ -52,3 +45,12 @@ function login() {
         alert('Please fill in all the fields');
     }
   }
+
+  window.addEventListener("load",function(){
+
+    showPopup();
+    // setTimeout(function(){
+    //   loginPopup.classList.add("show");
+    // },5000)
+   
+   })
